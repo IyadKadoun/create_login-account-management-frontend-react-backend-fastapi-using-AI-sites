@@ -1,0 +1,135 @@
+/* frontend/src/components/styles.css */
+/* أنماط عامة */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h2, h3 {
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='email'],
+  input[type='checkbox'] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* أنماط لوحة إدارة المستخدمين */
+  .admin-panel {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-panel h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel .add-button {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .admin-panel .add-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* أنماط قائمة المستخدمين */
+  .user-list-container {
+    margin-top: 20px;
+  }
+  
+  .user-list-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .user-list-container th,
+  .user-list-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-list-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-list-container .edit-button {
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .user-list-container .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-list-container .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .user-list-container .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* أنماط نماذج الإضافة والتعديل */
+  .add-user-container,
+  .edit-user-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 400px;
+    max-width: 1}

@@ -1,0 +1,18 @@
+┣ 📂app
+┃ ┣ 📂__pycache__
+┃ ┃ ┣ 📜database.cpython-313.pyc
+┃ ┃ ┣ 📜dependencies.cpython-313.pyc
+┃ ┃ ┣ 📜main.cpython-313.pyc
+┃ ┃ ┣ 📜models.cpython-313.pyc
+┃ ┃ ┣ 📜schemas.cpython-313.pyc
+┃ ┃ ┗ 📜security.cpython-313.pyc
+┃ ┣ 📜database.py
+┃ ┣ 📜dependencies.py
+┃ ┣ 📜enums.py
+┃ ┣ 📜main.py
+┃ ┣ 📜models.py
+┃ ┣ 📜schemas.py
+┃ ┗ 📜security.py
+┣ 📜.env
+┣ 📜add.py
+┗ 📜requirements.txt
